@@ -1,0 +1,56 @@
+     A          R RECORD1                   CF03
+     A            ZAHL1          9Y 0B  8 35COLOR(WHT)
+     A                                      EDTCDE(N)
+     A            ZAHL2          9Y 0B 12 35COLOR(WHT)
+     A                                      EDTCDE(N)
+     A            RZ             1   B 10 35COLOR(WHT)
+     A                                 20 66'F3 = Ende'
+     A                                      COLOR(PNK)
+     A                                  3 33'"Taschen"Rechner'
+     A                                      COLOR(PNK)
+     A                                      DSPATR(UL)
+     A            ERGEBNIS      11Y 2O 16 34
+     A                                      EDTCDE(N)
+     A                                      COLOR(GRN)
+     A                                      DSPATR(UL)
+     A                                  3 10'{@}'
+     A                                      COLOR(PNK)
+     A                                  3 69'{@}'
+     A                                      COLOR(PNK)
+     A                                 17 37'\(@^-^@)/'
+     A                                      COLOR(PNK)
+     A                                  3  8'{'
+     A                                      COLOR(GRN)
+     A                                  3 14'}'
+     A                                      COLOR(GRN)
+     A                                  3 67'{'
+     A                                      COLOR(GRN)
+     A                                  3 73'}'
+     A            FM            40   O  6 21COLOR(RED)
+     A                                  8  3'MÃ¶gliche Rechenzeichen'
+     A                                      COLOR(PNK)
+     A                                      DSPATR(UL)
+     A                                  9 13'+'
+     A                                      COLOR(WHT)
+     A                                 10 13'-'
+     A                                      COLOR(WHT)
+     A                                 11 13'*'
+     A                                      COLOR(WHT)
+     A                                 12 13':'
+     A                                      COLOR(WHT)
+     A            ENDTEXT       26   O 19 29COLOR(WHT)
+     A*%%RS+<record-sequences>
+     A*%%RS+ <sequence name="01">
+     A*%%RS+  <device type="display" width="80" height="24" />
+     A*%%RS+  <record-write record-format="RECORD1">
+     A*%%RS+   <field-data>
+     A*%%RS+    <field name="ERGEBNIS" value="13562" />
+     A*%%RS+    <field name="ZAHL2" value="8851" />
+     A*%%RS+    <field name="ZAHL1" value="4711" />
+     A*%%RS+    <field name="RZ" value="+" />
+     A*%%RS+   </field-data>
+     A*%%RS+  </record-write>
+     A*%%RS+ </sequence>
+     A*%%RS </record-sequences>
+     A*%%RS+ </sequence>
+     A*%%RS </record-sequences> 
